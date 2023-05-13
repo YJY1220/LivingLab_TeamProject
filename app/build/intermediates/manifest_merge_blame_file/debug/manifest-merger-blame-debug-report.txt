@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->/Users/2sumin/Desktop/Loginkt_new/app/src/main/AndroidManifest.xml
+8-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->/Users/2sumin/Desktop/Loginkt_new/app/src/main/AndroidManifest.xml
+9-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml
 10
 11    <queries>
 11-->[androidx.media:media:1.4.1] /Users/2sumin/.gradle/caches/transforms-3/8225d12a1aa095bcadf6f330bb57708e/transformed/media-1.4.1/AndroidManifest.xml:24:5-28:15
@@ -32,38 +32,38 @@
 21-->[androidx.core:core:1.9.0] /Users/2sumin/.gradle/caches/transforms-3/c73afc1fa215d9ca128620a3c01802b0/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 22
 23    <application
-23-->/Users/2sumin/Desktop/Loginkt_new/app/src/main/AndroidManifest.xml:5:5-38:19
+23-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:5:5-38:19
 24        android:allowBackup="true"
-24-->/Users/2sumin/Desktop/Loginkt_new/app/src/main/AndroidManifest.xml:6:9-35
+24-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:6:9-35
 25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 25-->[androidx.core:core:1.9.0] /Users/2sumin/.gradle/caches/transforms-3/c73afc1fa215d9ca128620a3c01802b0/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 26        android:dataExtractionRules="@xml/data_extraction_rules"
-26-->/Users/2sumin/Desktop/Loginkt_new/app/src/main/AndroidManifest.xml:7:9-65
+26-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:7:9-65
 27        android:debuggable="true"
 28        android:extractNativeLibs="false"
 29        android:fullBackupContent="@xml/backup_rules"
-29-->/Users/2sumin/Desktop/Loginkt_new/app/src/main/AndroidManifest.xml:8:9-54
+29-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:8:9-54
 30        android:icon="@mipmap/ic_launcher"
-30-->/Users/2sumin/Desktop/Loginkt_new/app/src/main/AndroidManifest.xml:9:9-43
+30-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:9:9-43
 31        android:label="@string/app_name"
-31-->/Users/2sumin/Desktop/Loginkt_new/app/src/main/AndroidManifest.xml:10:9-41
+31-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:10:9-41
 32        android:supportsRtl="true"
-32-->/Users/2sumin/Desktop/Loginkt_new/app/src/main/AndroidManifest.xml:11:9-35
+32-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:11:9-35
 33        android:testOnly="true"
 34        android:theme="@style/Theme.Loginkt_new" >
-34-->/Users/2sumin/Desktop/Loginkt_new/app/src/main/AndroidManifest.xml:12:9-49
+34-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:12:9-49
 35        <activity
-35-->/Users/2sumin/Desktop/Loginkt_new/app/src/main/AndroidManifest.xml:14:9-16:40
+35-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:14:9-16:40
 36            android:name="com.guri.loginkt_new.NotificationActivity"
-36-->/Users/2sumin/Desktop/Loginkt_new/app/src/main/AndroidManifest.xml:15:13-49
+36-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:15:13-49
 37            android:exported="false" />
-37-->/Users/2sumin/Desktop/Loginkt_new/app/src/main/AndroidManifest.xml:16:13-37
+37-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:16:13-37
 38        <activity
-38-->/Users/2sumin/Desktop/Loginkt_new/app/src/main/AndroidManifest.xml:17:9-19:40
+38-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:17:9-19:40
 39            android:name="com.guri.loginkt_new.Notification_list"
-39-->/Users/2sumin/Desktop/Loginkt_new/app/src/main/AndroidManifest.xml:18:13-46
+39-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:18:13-46
 40            android:exported="false" />
-40-->/Users/2sumin/Desktop/Loginkt_new/app/src/main/AndroidManifest.xml:19:13-37
+40-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:19:13-37
 41        <!-- <activity -->
 42        <!-- android:name=".MypageActivity" -->
 43        <!-- android:exported="false" /> -->
@@ -71,26 +71,26 @@
 45        <!-- android:name=".BaseActivity" -->
 46        <!-- android:exported="false" /> -->
 47        <activity
-47-->/Users/2sumin/Desktop/Loginkt_new/app/src/main/AndroidManifest.xml:26:9-28:40
+47-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:26:9-28:40
 48            android:name="com.guri.loginkt_new.HomeActivity"
-48-->/Users/2sumin/Desktop/Loginkt_new/app/src/main/AndroidManifest.xml:27:13-41
+48-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:27:13-41
 49            android:exported="false" />
-49-->/Users/2sumin/Desktop/Loginkt_new/app/src/main/AndroidManifest.xml:28:13-37
+49-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:28:13-37
 50        <activity
-50-->/Users/2sumin/Desktop/Loginkt_new/app/src/main/AndroidManifest.xml:29:9-37:20
+50-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:29:9-37:20
 51            android:name="com.guri.loginkt_new.MainActivity"
-51-->/Users/2sumin/Desktop/Loginkt_new/app/src/main/AndroidManifest.xml:30:13-41
+51-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:30:13-41
 52            android:exported="true" >
-52-->/Users/2sumin/Desktop/Loginkt_new/app/src/main/AndroidManifest.xml:31:13-36
+52-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:31:13-36
 53            <intent-filter>
-53-->/Users/2sumin/Desktop/Loginkt_new/app/src/main/AndroidManifest.xml:32:13-36:29
+53-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:32:13-36:29
 54                <action android:name="android.intent.action.MAIN" />
-54-->/Users/2sumin/Desktop/Loginkt_new/app/src/main/AndroidManifest.xml:33:17-69
-54-->/Users/2sumin/Desktop/Loginkt_new/app/src/main/AndroidManifest.xml:33:25-66
+54-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:33:17-69
+54-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:33:25-66
 55
 56                <category android:name="android.intent.category.LAUNCHER" />
-56-->/Users/2sumin/Desktop/Loginkt_new/app/src/main/AndroidManifest.xml:35:17-77
-56-->/Users/2sumin/Desktop/Loginkt_new/app/src/main/AndroidManifest.xml:35:27-74
+56-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:35:17-77
+56-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:35:27-74
 57            </intent-filter>
 58        </activity>
 59

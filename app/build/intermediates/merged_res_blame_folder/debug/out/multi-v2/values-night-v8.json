@@ -4,7 +4,7 @@
             "outputFile": "com.guri.loginkt_new.app-mergeDebugResources-29:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/2sumin/Desktop/Loginkt_new/app/src/main/res/values-night/themes.xml",
+                    "source": "/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/res/values-night/themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
