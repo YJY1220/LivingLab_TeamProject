@@ -24,14 +24,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
-            android:fontFamily="sans-serif-black"
-            android:text="aaA님의 프로젝트"
+            android:fontFamily="sans-serif-medium"
+            android:text="ProjectA"
             android:textColor="@color/toolbar_title_blue"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="10dp" />
 
     </androidx.appcompat.widget.Toolbar>
 
 <!--    하단에 내비게이션바 삽입-->
+
     <FrameLayout
         android:id="@+id/fragmentCotainer"
         android:layout_width="0dp"

@@ -1399,6 +1399,23 @@
             "outputFile": "com.guri.loginkt_new.app-merged_res-31:/values_values.arsc.flat",
             "map": [
                 {
+                    "source": "/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "8,3,11,2,4,5,6,7,10,9",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "325,102,462,55,141,188,235,280,409,367",
+                        "endColumns": "41,38,43,46,46,46,44,44,52,41",
+                        "endOffsets": "362,136,501,97,183,230,275,320,457,404"
+                    },
+                    "to": {
+                        "startLines": "654,655,967,979,980,981,992,993,994,997",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "33664,33706,56892,57745,57792,57839,58583,58628,58673,58847",
+                        "endColumns": "41,38,43,46,46,46,44,44,52,41",
+                        "endOffsets": "33701,33740,56931,57787,57834,57881,58623,58668,58721,58884"
+                    }
+                },
+                {
                     "source": "/Users/2sumin/.gradle/caches/transforms-3/8225d12a1aa095bcadf6f330bb57708e/transformed/media-1.4.1/res/values/values.xml",
                     "from": {
                         "startLines": "2,5,7,8,9,10,11",
@@ -1432,25 +1449,6 @@
                         "endLines": "109,9229,11181,11265",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "5821,639092,709922,714438"
-                    }
-                },
-                {
-                    "source": "/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/res/values/themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "781"
-                    },
-                    "to": {
-                        "startLines": "6424",
-                        "startColumns": "4",
-                        "startOffsets": "448267",
-                        "endLines": "6436",
-                        "endColumns": "12",
-                        "endOffsets": "448827"
                     }
                 },
                 {
@@ -1545,23 +1543,6 @@
                     }
                 },
                 {
-                    "source": "/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/res/values/colors.xml",
-                    "from": {
-                        "startLines": "8,3,11,2,4,5,6,7,10,9",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "325,102,462,55,141,188,235,280,409,367",
-                        "endColumns": "41,38,43,46,46,46,44,44,52,41",
-                        "endOffsets": "362,136,501,97,183,230,275,320,457,404"
-                    },
-                    "to": {
-                        "startLines": "654,655,967,979,980,981,992,993,994,997",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "33664,33706,56892,57745,57792,57839,58583,58628,58673,58847",
-                        "endColumns": "41,38,43,46,46,46,44,44,52,41",
-                        "endOffsets": "33701,33740,56931,57787,57834,57881,58623,58668,58721,58884"
-                    }
-                },
-                {
                     "source": "/Users/2sumin/.gradle/caches/transforms-3/bd2013a7ba3836a0788f3d8b2296a53a/transformed/lifecycle-runtime-2.5.1/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -1636,7 +1617,24 @@
                     }
                 },
                 {
-                    "source": "/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/res/values/strings.xml",
+                    "source": "/Users/2sumin/.gradle/caches/transforms-3/6bd59ce5ad314a42b8a1944d4e5257cc/transformed/activity-1.6.0/res/values/values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "59",
+                        "endOffsets": "110"
+                    },
+                    "to": {
+                        "startLines": "1900",
+                        "startColumns": "4",
+                        "startOffsets": "125234",
+                        "endColumns": "59",
+                        "endOffsets": "125289"
+                    }
+                },
+                {
+                    "source": "/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "1,3",
                         "startColumns": "4,4",
@@ -1653,20 +1651,22 @@
                     }
                 },
                 {
-                    "source": "/Users/2sumin/.gradle/caches/transforms-3/6bd59ce5ad314a42b8a1944d4e5257cc/transformed/activity-1.6.0/res/values/values.xml",
+                    "source": "/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/res/values/themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "59",
-                        "endOffsets": "110"
+                        "startOffsets": "100",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "781"
                     },
                     "to": {
-                        "startLines": "1900",
+                        "startLines": "6424",
                         "startColumns": "4",
-                        "startOffsets": "125234",
-                        "endColumns": "59",
-                        "endOffsets": "125289"
+                        "startOffsets": "448267",
+                        "endLines": "6436",
+                        "endColumns": "12",
+                        "endOffsets": "448827"
                     }
                 },
                 {
@@ -6867,25 +6867,6 @@
             "outputFile": "com.guri.loginkt_new.app-merged_res-31:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/res/values-night/themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "800"
-                    },
-                    "to": {
-                        "startLines": "9",
-                        "startColumns": "4",
-                        "startOffsets": "687",
-                        "endLines": "21",
-                        "endColumns": "12",
-                        "endOffsets": "1266"
-                    }
-                },
-                {
                     "source": "/Users/2sumin/.gradle/caches/transforms-3/8d9343f569df63b726615d18b45679d4/transformed/appcompat-1.6.1/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -6917,6 +6898,25 @@
                         "startOffsets": "1271,1346,1457,1546,1647,1754,1861,1960,2067,2170,2258,2382,2484,2586,2702,2804,2918,3046,3162,3284,3420,3540,3674,3794,3906,4121,4238,4362,4492,4614,4752,4886,5002",
                         "endColumns": "74,110,88,100,106,106,98,106,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
                         "endOffsets": "1341,1452,1541,1642,1749,1856,1955,2062,2165,2253,2377,2479,2581,2697,2799,2913,3041,3157,3279,3415,3535,3669,3789,3901,4027,4233,4357,4487,4609,4747,4881,4997,5117"
+                    }
+                },
+                {
+                    "source": "/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/res/values-night/themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "800"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "687",
+                        "endLines": "21",
+                        "endColumns": "12",
+                        "endOffsets": "1266"
                     }
                 }
             ]

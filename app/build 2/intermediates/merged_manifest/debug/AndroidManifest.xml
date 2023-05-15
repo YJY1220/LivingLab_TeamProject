@@ -33,7 +33,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.Loginkt_new" >
         <activity
-            android:name="com.guri.loginkt_new.Notification_list"
+            android:name="com.guri.loginkt_new.recyclerView.Notification_list"
             android:exported="false" />
         <activity
             android:name="com.guri.loginkt_new.MypageActivity"

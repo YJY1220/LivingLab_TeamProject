@@ -4,25 +4,6 @@
             "outputFile": "com.guri.loginkt_new.app-mergeDebugResources-29:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/res/values-night/themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "800"
-                    },
-                    "to": {
-                        "startLines": "9",
-                        "startColumns": "4",
-                        "startOffsets": "687",
-                        "endLines": "21",
-                        "endColumns": "12",
-                        "endOffsets": "1266"
-                    }
-                },
-                {
                     "source": "/Users/2sumin/.gradle/caches/transforms-3/8d9343f569df63b726615d18b45679d4/transformed/appcompat-1.6.1/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -54,6 +35,25 @@
                         "startOffsets": "1271,1346,1457,1546,1647,1754,1861,1960,2067,2170,2258,2382,2484,2586,2702,2804,2918,3046,3162,3284,3420,3540,3674,3794,3906,4121,4238,4362,4492,4614,4752,4886,5002",
                         "endColumns": "74,110,88,100,106,106,98,106,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
                         "endOffsets": "1341,1452,1541,1642,1749,1856,1955,2062,2165,2253,2377,2479,2581,2697,2799,2913,3041,3157,3279,3415,3535,3669,3789,3901,4027,4233,4357,4487,4609,4747,4881,4997,5117"
+                    }
+                },
+                {
+                    "source": "/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/res/values-night/themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "800"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "687",
+                        "endLines": "21",
+                        "endColumns": "12",
+                        "endOffsets": "1266"
                     }
                 }
             ]

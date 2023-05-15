@@ -1,11 +1,15 @@
 [
     {
+        "merged": "com.guri.loginkt_new.app-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/activity_main.xml"
+    },
+    {
         "merged": "com.guri.loginkt_new.app-mergeDebugResources-30:/layout/list_item.xml",
         "source": "com.guri.loginkt_new.app-main-33:/layout/list_item.xml"
     },
     {
-        "merged": "com.guri.loginkt_new.app-mergeDebugResources-30:/layout/activity_main.xml",
-        "source": "com.guri.loginkt_new.app-main-33:/layout/activity_main.xml"
+        "merged": "com.guri.loginkt_new.app-mergeDebugResources-30:/layout/activity_login.xml",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/activity_login.xml"
     },
     {
         "merged": "com.guri.loginkt_new.app-mergeDebugResources-30:/layout/activity_home.xml",
@@ -32,8 +36,16 @@
         "source": "com.guri.loginkt_new.app-main-33:/layout/fragment_home.xml"
     },
     {
+        "merged": "com.guri.loginkt_new.app-mergeDebugResources-30:/layout/list_item_ver.xml",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/list_item_ver.xml"
+    },
+    {
         "merged": "com.guri.loginkt_new.app-mergeDebugResources-30:/layout/fragment_calendar.xml",
         "source": "com.guri.loginkt_new.app-main-33:/layout/fragment_calendar.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-mergeDebugResources-30:/layout/list_item_hori.xml",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/list_item_hori.xml"
     },
     {
         "merged": "com.guri.loginkt_new.app-mergeDebugResources-30:/layout/fragment_notification.xml",
@@ -46,6 +58,10 @@
     {
         "merged": "com.guri.loginkt_new.app-mergeDebugResources-30:/layout/fragment_map.xml",
         "source": "com.guri.loginkt_new.app-main-33:/layout/fragment_map.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-mergeDebugResources-30:/layout/list_item_project.xml",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/list_item_project.xml"
     },
     {
         "merged": "com.guri.loginkt_new.app-mergeDebugResources-30:/layout/fragment_mypage.xml",

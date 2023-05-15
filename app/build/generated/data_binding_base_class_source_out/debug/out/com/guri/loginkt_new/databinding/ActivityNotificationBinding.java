@@ -4,12 +4,16 @@ package com.guri.loginkt_new.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.Toolbar;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.guri.loginkt_new.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -23,13 +27,31 @@ public final class ActivityNotificationBinding implements ViewBinding {
   public final ConstraintLayout ConstraintLayout;
 
   @NonNull
+  public final BottomNavigationView bottomNavigationView;
+
+  @NonNull
+  public final FrameLayout fragmentCotainer;
+
+  @NonNull
   public final RecyclerView rvPro1;
 
+  @NonNull
+  public final Toolbar toolbar;
+
+  @NonNull
+  public final TextView toolbarTitle;
+
   private ActivityNotificationBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout ConstraintLayout, @NonNull RecyclerView rvPro1) {
+      @NonNull ConstraintLayout ConstraintLayout,
+      @NonNull BottomNavigationView bottomNavigationView, @NonNull FrameLayout fragmentCotainer,
+      @NonNull RecyclerView rvPro1, @NonNull Toolbar toolbar, @NonNull TextView toolbarTitle) {
     this.rootView = rootView;
     this.ConstraintLayout = ConstraintLayout;
+    this.bottomNavigationView = bottomNavigationView;
+    this.fragmentCotainer = fragmentCotainer;
     this.rvPro1 = rvPro1;
+    this.toolbar = toolbar;
+    this.toolbarTitle = toolbarTitle;
   }
 
   @Override
@@ -61,13 +83,38 @@ public final class ActivityNotificationBinding implements ViewBinding {
     missingId: {
       ConstraintLayout ConstraintLayout = (ConstraintLayout) rootView;
 
+      id = R.id.bottomNavigationView;
+      BottomNavigationView bottomNavigationView = ViewBindings.findChildViewById(rootView, id);
+      if (bottomNavigationView == null) {
+        break missingId;
+      }
+
+      id = R.id.fragmentCotainer;
+      FrameLayout fragmentCotainer = ViewBindings.findChildViewById(rootView, id);
+      if (fragmentCotainer == null) {
+        break missingId;
+      }
+
       id = R.id.rv_pro_1;
       RecyclerView rvPro1 = ViewBindings.findChildViewById(rootView, id);
       if (rvPro1 == null) {
         break missingId;
       }
 
-      return new ActivityNotificationBinding((ConstraintLayout) rootView, ConstraintLayout, rvPro1);
+      id = R.id.toolbar;
+      Toolbar toolbar = ViewBindings.findChildViewById(rootView, id);
+      if (toolbar == null) {
+        break missingId;
+      }
+
+      id = R.id.toolbar_title;
+      TextView toolbarTitle = ViewBindings.findChildViewById(rootView, id);
+      if (toolbarTitle == null) {
+        break missingId;
+      }
+
+      return new ActivityNotificationBinding((ConstraintLayout) rootView, ConstraintLayout,
+          bottomNavigationView, fragmentCotainer, rvPro1, toolbar, toolbarTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

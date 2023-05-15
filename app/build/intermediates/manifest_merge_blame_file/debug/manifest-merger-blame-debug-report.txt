@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml
+8-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml
+9-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml
 10
 11    <queries>
 11-->[androidx.media:media:1.4.1] /Users/2sumin/.gradle/caches/transforms-3/8225d12a1aa095bcadf6f330bb57708e/transformed/media-1.4.1/AndroidManifest.xml:24:5-28:15
@@ -32,89 +32,105 @@
 21-->[androidx.core:core:1.9.0] /Users/2sumin/.gradle/caches/transforms-3/c73afc1fa215d9ca128620a3c01802b0/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 22
 23    <application
-23-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:5:5-38:19
+23-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:5:5-46:19
 24        android:allowBackup="true"
-24-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:6:9-35
+24-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:6:9-35
 25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 25-->[androidx.core:core:1.9.0] /Users/2sumin/.gradle/caches/transforms-3/c73afc1fa215d9ca128620a3c01802b0/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 26        android:dataExtractionRules="@xml/data_extraction_rules"
-26-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:7:9-65
+26-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:7:9-65
 27        android:debuggable="true"
 28        android:extractNativeLibs="false"
 29        android:fullBackupContent="@xml/backup_rules"
-29-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:8:9-54
+29-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:8:9-54
 30        android:icon="@mipmap/ic_launcher"
-30-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:9:9-43
+30-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:9:9-43
 31        android:label="@string/app_name"
-31-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:10:9-41
+31-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:10:9-41
 32        android:supportsRtl="true"
-32-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:11:9-35
-33        android:testOnly="true"
-34        android:theme="@style/Theme.Loginkt_new" >
-34-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:12:9-49
-35        <activity
-35-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:14:9-16:40
-36            android:name="com.guri.loginkt_new.NotificationActivity"
-36-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:15:13-49
-37            android:exported="false" />
-37-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:16:13-37
-38        <activity
-38-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:17:9-19:40
-39            android:name="com.guri.loginkt_new.Notification_list"
-39-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:18:13-46
-40            android:exported="false" />
-40-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:19:13-37
-41        <!-- <activity -->
-42        <!-- android:name=".MypageActivity" -->
-43        <!-- android:exported="false" /> -->
-44        <!-- <activity -->
-45        <!-- android:name=".BaseActivity" -->
-46        <!-- android:exported="false" /> -->
-47        <activity
-47-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:26:9-28:40
-48            android:name="com.guri.loginkt_new.HomeActivity"
-48-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:27:13-41
-49            android:exported="false" />
-49-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:28:13-37
-50        <activity
-50-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:29:9-37:20
-51            android:name="com.guri.loginkt_new.MainActivity"
-51-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:30:13-41
-52            android:exported="true" >
-52-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:31:13-36
-53            <intent-filter>
-53-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:32:13-36:29
-54                <action android:name="android.intent.action.MAIN" />
-54-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:33:17-69
-54-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:33:25-66
-55
-56                <category android:name="android.intent.category.LAUNCHER" />
-56-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:35:17-77
-56-->/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:35:27-74
-57            </intent-filter>
-58        </activity>
-59
-60        <provider
-60-->[androidx.emoji2:emoji2:1.2.0] /Users/2sumin/.gradle/caches/transforms-3/66814d0c9c223a08105bc116aeb53dd5/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-61            android:name="androidx.startup.InitializationProvider"
-61-->[androidx.emoji2:emoji2:1.2.0] /Users/2sumin/.gradle/caches/transforms-3/66814d0c9c223a08105bc116aeb53dd5/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-62            android:authorities="com.guri.loginkt_new.androidx-startup"
-62-->[androidx.emoji2:emoji2:1.2.0] /Users/2sumin/.gradle/caches/transforms-3/66814d0c9c223a08105bc116aeb53dd5/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-63            android:exported="false" >
-63-->[androidx.emoji2:emoji2:1.2.0] /Users/2sumin/.gradle/caches/transforms-3/66814d0c9c223a08105bc116aeb53dd5/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-64            <meta-data
-64-->[androidx.emoji2:emoji2:1.2.0] /Users/2sumin/.gradle/caches/transforms-3/66814d0c9c223a08105bc116aeb53dd5/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-65                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-65-->[androidx.emoji2:emoji2:1.2.0] /Users/2sumin/.gradle/caches/transforms-3/66814d0c9c223a08105bc116aeb53dd5/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-66                android:value="androidx.startup" />
-66-->[androidx.emoji2:emoji2:1.2.0] /Users/2sumin/.gradle/caches/transforms-3/66814d0c9c223a08105bc116aeb53dd5/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-67            <meta-data
-67-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/2sumin/.gradle/caches/transforms-3/d64e7ca6b93f4a6c092b1dd37cf249d6/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-68                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-68-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/2sumin/.gradle/caches/transforms-3/d64e7ca6b93f4a6c092b1dd37cf249d6/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-69                android:value="androidx.startup" />
-69-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/2sumin/.gradle/caches/transforms-3/d64e7ca6b93f4a6c092b1dd37cf249d6/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-70        </provider>
-71    </application>
-72
-73</manifest>
+32-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:11:9-35
+33        android:theme="@style/Theme.Loginkt_new" >
+33-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:12:9-49
+34        <activity
+34-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:14:9-16:40
+35            android:name="com.guri.loginkt_new.CalendarActivity"
+35-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:15:13-45
+36            android:exported="false" />
+36-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:16:13-37
+37        <activity
+37-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:17:9-19:40
+38            android:name="com.guri.loginkt_new.LoginActivity"
+38-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:18:13-42
+39            android:exported="false" />
+39-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:19:13-37
+40        <activity
+40-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:20:9-22:40
+41            android:name="com.guri.loginkt_new.RegisterActivity"
+41-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:21:13-45
+42            android:exported="false" />
+42-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:22:13-37
+43        <activity
+43-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:23:9-25:40
+44            android:name="com.guri.loginkt_new.NotificationActivity"
+44-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:24:13-49
+45            android:exported="false" />
+45-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:25:13-37
+46        <activity
+46-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:26:9-28:40
+47            android:name="com.guri.loginkt_new.recyclerView.NotificationList"
+47-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:27:13-58
+48            android:exported="false" /> <!-- <activity -->
+48-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:28:13-37
+49        <!-- android:name=".MypageActivity" -->
+50        <!-- android:exported="false" /> -->
+51        <!-- <activity -->
+52        <!-- android:name=".BaseActivity" -->
+53        <!-- android:exported="false" /> -->
+54        <activity
+54-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:34:9-36:40
+55            android:name="com.guri.loginkt_new.HomeActivity"
+55-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:35:13-41
+56            android:exported="false" />
+56-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:36:13-37
+57        <activity
+57-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:37:9-45:20
+58            android:name="com.guri.loginkt_new.MainActivity"
+58-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:38:13-41
+59            android:exported="true" >
+59-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:39:13-36
+60            <intent-filter>
+60-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:40:13-44:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:41:17-69
+61-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:41:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:43:17-77
+63-->/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/AndroidManifest.xml:43:27-74
+64            </intent-filter>
+65        </activity>
+66
+67        <provider
+67-->[androidx.emoji2:emoji2:1.2.0] /Users/2sumin/.gradle/caches/transforms-3/66814d0c9c223a08105bc116aeb53dd5/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+68            android:name="androidx.startup.InitializationProvider"
+68-->[androidx.emoji2:emoji2:1.2.0] /Users/2sumin/.gradle/caches/transforms-3/66814d0c9c223a08105bc116aeb53dd5/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+69            android:authorities="com.guri.loginkt_new.androidx-startup"
+69-->[androidx.emoji2:emoji2:1.2.0] /Users/2sumin/.gradle/caches/transforms-3/66814d0c9c223a08105bc116aeb53dd5/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+70            android:exported="false" >
+70-->[androidx.emoji2:emoji2:1.2.0] /Users/2sumin/.gradle/caches/transforms-3/66814d0c9c223a08105bc116aeb53dd5/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+71            <meta-data
+71-->[androidx.emoji2:emoji2:1.2.0] /Users/2sumin/.gradle/caches/transforms-3/66814d0c9c223a08105bc116aeb53dd5/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+72                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+72-->[androidx.emoji2:emoji2:1.2.0] /Users/2sumin/.gradle/caches/transforms-3/66814d0c9c223a08105bc116aeb53dd5/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+73                android:value="androidx.startup" />
+73-->[androidx.emoji2:emoji2:1.2.0] /Users/2sumin/.gradle/caches/transforms-3/66814d0c9c223a08105bc116aeb53dd5/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+74            <meta-data
+74-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/2sumin/.gradle/caches/transforms-3/d64e7ca6b93f4a6c092b1dd37cf249d6/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+75                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+75-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/2sumin/.gradle/caches/transforms-3/d64e7ca6b93f4a6c092b1dd37cf249d6/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+76                android:value="androidx.startup" />
+76-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/2sumin/.gradle/caches/transforms-3/d64e7ca6b93f4a6c092b1dd37cf249d6/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+77        </provider>
+78    </application>
+79
+80</manifest>

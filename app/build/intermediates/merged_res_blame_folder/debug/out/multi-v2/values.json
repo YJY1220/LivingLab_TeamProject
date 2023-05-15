@@ -4,6 +4,23 @@
             "outputFile": "com.guri.loginkt_new.app-mergeDebugResources-29:/values/values.xml",
             "map": [
                 {
+                    "source": "/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "8,3,11,2,4,5,6,7,10,9",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "325,102,462,55,141,188,235,280,409,367",
+                        "endColumns": "41,38,43,46,46,46,44,44,52,41",
+                        "endOffsets": "362,136,501,97,183,230,275,320,457,404"
+                    },
+                    "to": {
+                        "startLines": "654,655,967,979,980,981,992,993,994,997",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "33664,33706,56892,57745,57792,57839,58583,58628,58673,58847",
+                        "endColumns": "41,38,43,46,46,46,44,44,52,41",
+                        "endOffsets": "33701,33740,56931,57787,57834,57881,58623,58668,58721,58884"
+                    }
+                },
+                {
                     "source": "/Users/2sumin/.gradle/caches/transforms-3/8225d12a1aa095bcadf6f330bb57708e/transformed/media-1.4.1/res/values/values.xml",
                     "from": {
                         "startLines": "2,5,7,8,9,10,11",
@@ -37,25 +54,6 @@
                         "endLines": "109,9229,11181,11265",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "5821,639092,709922,714438"
-                    }
-                },
-                {
-                    "source": "/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/res/values/themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "781"
-                    },
-                    "to": {
-                        "startLines": "6424",
-                        "startColumns": "4",
-                        "startOffsets": "448267",
-                        "endLines": "6436",
-                        "endColumns": "12",
-                        "endOffsets": "448827"
                     }
                 },
                 {
@@ -150,23 +148,6 @@
                     }
                 },
                 {
-                    "source": "/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/res/values/colors.xml",
-                    "from": {
-                        "startLines": "8,3,11,2,4,5,6,7,10,9",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "325,102,462,55,141,188,235,280,409,367",
-                        "endColumns": "41,38,43,46,46,46,44,44,52,41",
-                        "endOffsets": "362,136,501,97,183,230,275,320,457,404"
-                    },
-                    "to": {
-                        "startLines": "654,655,967,979,980,981,992,993,994,997",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "33664,33706,56892,57745,57792,57839,58583,58628,58673,58847",
-                        "endColumns": "41,38,43,46,46,46,44,44,52,41",
-                        "endOffsets": "33701,33740,56931,57787,57834,57881,58623,58668,58721,58884"
-                    }
-                },
-                {
                     "source": "/Users/2sumin/.gradle/caches/transforms-3/bd2013a7ba3836a0788f3d8b2296a53a/transformed/lifecycle-runtime-2.5.1/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -241,7 +222,24 @@
                     }
                 },
                 {
-                    "source": "/Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/res/values/strings.xml",
+                    "source": "/Users/2sumin/.gradle/caches/transforms-3/6bd59ce5ad314a42b8a1944d4e5257cc/transformed/activity-1.6.0/res/values/values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "59",
+                        "endOffsets": "110"
+                    },
+                    "to": {
+                        "startLines": "1900",
+                        "startColumns": "4",
+                        "startOffsets": "125234",
+                        "endColumns": "59",
+                        "endOffsets": "125289"
+                    }
+                },
+                {
+                    "source": "/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "1,3",
                         "startColumns": "4,4",
@@ -258,20 +256,22 @@
                     }
                 },
                 {
-                    "source": "/Users/2sumin/.gradle/caches/transforms-3/6bd59ce5ad314a42b8a1944d4e5257cc/transformed/activity-1.6.0/res/values/values.xml",
+                    "source": "/Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/res/values/themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "59",
-                        "endOffsets": "110"
+                        "startOffsets": "100",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "781"
                     },
                     "to": {
-                        "startLines": "1900",
+                        "startLines": "6424",
                         "startColumns": "4",
-                        "startOffsets": "125234",
-                        "endColumns": "59",
-                        "endOffsets": "125289"
+                        "startOffsets": "448267",
+                        "endLines": "6436",
+                        "endColumns": "12",
+                        "endOffsets": "448827"
                     }
                 },
                 {

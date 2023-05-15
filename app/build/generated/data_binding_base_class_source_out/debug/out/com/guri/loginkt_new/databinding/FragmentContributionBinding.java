@@ -4,20 +4,87 @@ package com.guri.loginkt_new.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.FrameLayout;
+import android.widget.ImageView;
+import android.widget.ProgressBar;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.guri.loginkt_new.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentContributionBinding implements ViewBinding {
   @NonNull
   private final FrameLayout rootView;
 
-  private FragmentContributionBinding(@NonNull FrameLayout rootView) {
+  @NonNull
+  public final ConstraintLayout TODOThings;
+
+  @NonNull
+  public final Button btnAdd;
+
+  @NonNull
+  public final ConstraintLayout clProgress;
+
+  @NonNull
+  public final ConstraintLayout clTodo;
+
+  @NonNull
+  public final ConstraintLayout dday;
+
+  @NonNull
+  public final ImageView imgDdayStatus;
+
+  @NonNull
+  public final ProgressBar progressBar2;
+
+  @NonNull
+  public final RecyclerView recyclerHorizon;
+
+  @NonNull
+  public final RecyclerView recyclerVertical;
+
+  @NonNull
+  public final TextView tvDday;
+
+  @NonNull
+  public final TextView tvProgressProp;
+
+  @NonNull
+  public final TextView tvProgressTitle;
+
+  @NonNull
+  public final TextView tvTodo;
+
+  private FragmentContributionBinding(@NonNull FrameLayout rootView,
+      @NonNull ConstraintLayout TODOThings, @NonNull Button btnAdd,
+      @NonNull ConstraintLayout clProgress, @NonNull ConstraintLayout clTodo,
+      @NonNull ConstraintLayout dday, @NonNull ImageView imgDdayStatus,
+      @NonNull ProgressBar progressBar2, @NonNull RecyclerView recyclerHorizon,
+      @NonNull RecyclerView recyclerVertical, @NonNull TextView tvDday,
+      @NonNull TextView tvProgressProp, @NonNull TextView tvProgressTitle,
+      @NonNull TextView tvTodo) {
     this.rootView = rootView;
+    this.TODOThings = TODOThings;
+    this.btnAdd = btnAdd;
+    this.clProgress = clProgress;
+    this.clTodo = clTodo;
+    this.dday = dday;
+    this.imgDdayStatus = imgDdayStatus;
+    this.progressBar2 = progressBar2;
+    this.recyclerHorizon = recyclerHorizon;
+    this.recyclerVertical = recyclerVertical;
+    this.tvDday = tvDday;
+    this.tvProgressProp = tvProgressProp;
+    this.tvProgressTitle = tvProgressTitle;
+    this.tvTodo = tvTodo;
   }
 
   @Override
@@ -43,10 +110,93 @@ public final class FragmentContributionBinding implements ViewBinding {
 
   @NonNull
   public static FragmentContributionBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.TODO_Things;
+      ConstraintLayout TODOThings = ViewBindings.findChildViewById(rootView, id);
+      if (TODOThings == null) {
+        break missingId;
+      }
 
-    return new FragmentContributionBinding((FrameLayout) rootView);
+      id = R.id.btn_add;
+      Button btnAdd = ViewBindings.findChildViewById(rootView, id);
+      if (btnAdd == null) {
+        break missingId;
+      }
+
+      id = R.id.cl_progress;
+      ConstraintLayout clProgress = ViewBindings.findChildViewById(rootView, id);
+      if (clProgress == null) {
+        break missingId;
+      }
+
+      id = R.id.cl_todo;
+      ConstraintLayout clTodo = ViewBindings.findChildViewById(rootView, id);
+      if (clTodo == null) {
+        break missingId;
+      }
+
+      id = R.id.dday;
+      ConstraintLayout dday = ViewBindings.findChildViewById(rootView, id);
+      if (dday == null) {
+        break missingId;
+      }
+
+      id = R.id.img_dday_status;
+      ImageView imgDdayStatus = ViewBindings.findChildViewById(rootView, id);
+      if (imgDdayStatus == null) {
+        break missingId;
+      }
+
+      id = R.id.progressBar2;
+      ProgressBar progressBar2 = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar2 == null) {
+        break missingId;
+      }
+
+      id = R.id.recyclerHorizon;
+      RecyclerView recyclerHorizon = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerHorizon == null) {
+        break missingId;
+      }
+
+      id = R.id.recyclerVertical;
+      RecyclerView recyclerVertical = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerVertical == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_dday;
+      TextView tvDday = ViewBindings.findChildViewById(rootView, id);
+      if (tvDday == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_progress_prop;
+      TextView tvProgressProp = ViewBindings.findChildViewById(rootView, id);
+      if (tvProgressProp == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_progress_title;
+      TextView tvProgressTitle = ViewBindings.findChildViewById(rootView, id);
+      if (tvProgressTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_todo;
+      TextView tvTodo = ViewBindings.findChildViewById(rootView, id);
+      if (tvTodo == null) {
+        break missingId;
+      }
+
+      return new FragmentContributionBinding((FrameLayout) rootView, TODOThings, btnAdd, clProgress,
+          clTodo, dday, imgDdayStatus, progressBar2, recyclerHorizon, recyclerVertical, tvDday,
+          tvProgressProp, tvProgressTitle, tvTodo);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

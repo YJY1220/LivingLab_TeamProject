@@ -4,12 +4,13 @@ package com.guri.loginkt_new.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.widget.AppCompatButton;
 import androidx.appcompat.widget.Toolbar;
+import androidx.constraintlayout.utils.widget.ImageFilterView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -23,13 +24,31 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final AppCompatButton btnLogin;
+  public final Button btnRegister;
 
   @NonNull
-  public final EditText etEmail;
+  public final EditText editTextNumberPassword;
 
   @NonNull
-  public final EditText etPassword;
+  public final EditText editTextTextEmailAddress;
+
+  @NonNull
+  public final EditText editTextTextPassword;
+
+  @NonNull
+  public final EditText editTextTextPersonName;
+
+  @NonNull
+  public final EditText editTextTextPersonName2;
+
+  @NonNull
+  public final EditText editTextTextPersonName3;
+
+  @NonNull
+  public final EditText editTextTextPersonName4;
+
+  @NonNull
+  public final ImageFilterView imageFilterView;
 
   @NonNull
   public final Toolbar toolbar;
@@ -37,23 +56,24 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final TextView toolbarTitle;
 
-  @NonNull
-  public final TextView tvEmail;
-
-  @NonNull
-  public final TextView tvPassword;
-
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull AppCompatButton btnLogin,
-      @NonNull EditText etEmail, @NonNull EditText etPassword, @NonNull Toolbar toolbar,
-      @NonNull TextView toolbarTitle, @NonNull TextView tvEmail, @NonNull TextView tvPassword) {
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnRegister,
+      @NonNull EditText editTextNumberPassword, @NonNull EditText editTextTextEmailAddress,
+      @NonNull EditText editTextTextPassword, @NonNull EditText editTextTextPersonName,
+      @NonNull EditText editTextTextPersonName2, @NonNull EditText editTextTextPersonName3,
+      @NonNull EditText editTextTextPersonName4, @NonNull ImageFilterView imageFilterView,
+      @NonNull Toolbar toolbar, @NonNull TextView toolbarTitle) {
     this.rootView = rootView;
-    this.btnLogin = btnLogin;
-    this.etEmail = etEmail;
-    this.etPassword = etPassword;
+    this.btnRegister = btnRegister;
+    this.editTextNumberPassword = editTextNumberPassword;
+    this.editTextTextEmailAddress = editTextTextEmailAddress;
+    this.editTextTextPassword = editTextTextPassword;
+    this.editTextTextPersonName = editTextTextPersonName;
+    this.editTextTextPersonName2 = editTextTextPersonName2;
+    this.editTextTextPersonName3 = editTextTextPersonName3;
+    this.editTextTextPersonName4 = editTextTextPersonName4;
+    this.imageFilterView = imageFilterView;
     this.toolbar = toolbar;
     this.toolbarTitle = toolbarTitle;
-    this.tvEmail = tvEmail;
-    this.tvPassword = tvPassword;
   }
 
   @Override
@@ -83,21 +103,57 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn_login;
-      AppCompatButton btnLogin = ViewBindings.findChildViewById(rootView, id);
-      if (btnLogin == null) {
+      id = R.id.btn_register;
+      Button btnRegister = ViewBindings.findChildViewById(rootView, id);
+      if (btnRegister == null) {
         break missingId;
       }
 
-      id = R.id.et_email;
-      EditText etEmail = ViewBindings.findChildViewById(rootView, id);
-      if (etEmail == null) {
+      id = R.id.editTextNumberPassword;
+      EditText editTextNumberPassword = ViewBindings.findChildViewById(rootView, id);
+      if (editTextNumberPassword == null) {
         break missingId;
       }
 
-      id = R.id.et_password;
-      EditText etPassword = ViewBindings.findChildViewById(rootView, id);
-      if (etPassword == null) {
+      id = R.id.editTextTextEmailAddress;
+      EditText editTextTextEmailAddress = ViewBindings.findChildViewById(rootView, id);
+      if (editTextTextEmailAddress == null) {
+        break missingId;
+      }
+
+      id = R.id.editTextTextPassword;
+      EditText editTextTextPassword = ViewBindings.findChildViewById(rootView, id);
+      if (editTextTextPassword == null) {
+        break missingId;
+      }
+
+      id = R.id.editTextTextPersonName;
+      EditText editTextTextPersonName = ViewBindings.findChildViewById(rootView, id);
+      if (editTextTextPersonName == null) {
+        break missingId;
+      }
+
+      id = R.id.editTextTextPersonName2;
+      EditText editTextTextPersonName2 = ViewBindings.findChildViewById(rootView, id);
+      if (editTextTextPersonName2 == null) {
+        break missingId;
+      }
+
+      id = R.id.editTextTextPersonName3;
+      EditText editTextTextPersonName3 = ViewBindings.findChildViewById(rootView, id);
+      if (editTextTextPersonName3 == null) {
+        break missingId;
+      }
+
+      id = R.id.editTextTextPersonName4;
+      EditText editTextTextPersonName4 = ViewBindings.findChildViewById(rootView, id);
+      if (editTextTextPersonName4 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageFilterView;
+      ImageFilterView imageFilterView = ViewBindings.findChildViewById(rootView, id);
+      if (imageFilterView == null) {
         break missingId;
       }
 
@@ -113,20 +169,10 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tv_email;
-      TextView tvEmail = ViewBindings.findChildViewById(rootView, id);
-      if (tvEmail == null) {
-        break missingId;
-      }
-
-      id = R.id.tv_password;
-      TextView tvPassword = ViewBindings.findChildViewById(rootView, id);
-      if (tvPassword == null) {
-        break missingId;
-      }
-
-      return new ActivityMainBinding((ConstraintLayout) rootView, btnLogin, etEmail, etPassword,
-          toolbar, toolbarTitle, tvEmail, tvPassword);
+      return new ActivityMainBinding((ConstraintLayout) rootView, btnRegister,
+          editTextNumberPassword, editTextTextEmailAddress, editTextTextPassword,
+          editTextTextPersonName, editTextTextPersonName2, editTextTextPersonName3,
+          editTextTextPersonName4, imageFilterView, toolbar, toolbarTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

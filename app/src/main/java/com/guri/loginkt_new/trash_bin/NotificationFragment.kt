@@ -1,18 +1,10 @@
 package com.guri.loginkt_new.trash_bin
 
-import android.R
-import android.content.Context
 import android.os.Bundle
-import android.text.TextUtils.replace
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.guri.loginkt_new.NotificationListAdapter
-import com.guri.loginkt_new.Notification_list
 import com.guri.loginkt_new.databinding.FragmentNotificationBinding
 
 

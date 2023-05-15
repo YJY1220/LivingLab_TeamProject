@@ -65,8 +65,30 @@ class HomeActivity : AppCompatActivity() {
             }
         }
 
+
+
+        // 알림 화면에서 홈화면으로 넘어온 경우
+        if (intent.hasExtra("navi"))
+        {
+            val opt_navi = intent.getStringExtra("navi")
+            if (opt_navi == "home") {
+                replaceFragment(homeF)
+            }
+            if (opt_navi == "calendar") {
+                replaceFragment(calendarF)
+            }
+            if ( opt_navi == "contribution") {
+                replaceFragment(contributionF)
+            }
+            if (opt_navi == "map") {
+                replaceFragment(mapF)
+            }
+
+        }
+
         // 기본 화면으로 홈화면 (내비게이션바 홈화면 클릭된 상태)
-        replaceFragment(homeF)
+        else
+            replaceFragment(homeF)
 
         // 하단 내비게이션 바 아이콘 클릭하면 다른 화면으로 전환되는 거
         binding.bottomNavigationView.setOnItemSelectedListener { item ->
@@ -82,13 +104,13 @@ class HomeActivity : AppCompatActivity() {
         // [홈에만 있으면 됨]툴바에서 마이페이지나 알림 버튼을 눌렀다면
         if (intent.hasExtra("toolbar"))
         {
-            val opt = intent.getStringExtra("toolbar")
+            val opt_toolbar = intent.getStringExtra("toolbar")
             // 마이페이지 버튼 눌렀으면 mypageFragment 넣기
-            if (opt == "mypage") {
+            if (opt_toolbar == "mypage") {
                 replaceFragment(mypageF)
             }
             // 알림 눌렀으면 notificationFragment 넣기
-            else if (opt == "notification") {
+            else if (opt_toolbar == "notification") {
                 val intent = Intent(this, NotificationActivity::class.java)
                 startActivity(intent)
             }
@@ -108,7 +130,7 @@ class HomeActivity : AppCompatActivity() {
 
     // 툴바에 아이콘 나타나게
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.toolbar, menu)
+        menuInflater.inflate(R.menu.toolbar_menu, menu)
         return super.onCreateOptionsMenu(menu)
     }
 

@@ -24,10 +24,10 @@ com.guri.loginkt_new.app-transition-1.2.0-22 /Users/2sumin/.gradle/caches/transf
 com.guri.loginkt_new.app-lifecycle-viewmodel-savedstate-2.5.1-23 /Users/2sumin/.gradle/caches/transforms-3/e563143b9fc1ce0498763a9307e41937/transformed/lifecycle-viewmodel-savedstate-2.5.1/res
 com.guri.loginkt_new.app-drawerlayout-1.1.1-24 /Users/2sumin/.gradle/caches/transforms-3/ee697cd08c56d0500233d93c4fc892de/transformed/drawerlayout-1.1.1/res
 com.guri.loginkt_new.app-constraintlayout-2.1.4-25 /Users/2sumin/.gradle/caches/transforms-3/fe5722c2d28764b765710ac6c318c6e8/transformed/constraintlayout-2.1.4/res
-com.guri.loginkt_new.app-resValues-26 /Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/build/generated/res/resValues/debug
-com.guri.loginkt_new.app-rs-27 /Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/build/generated/res/rs/debug
-com.guri.loginkt_new.app-packageDebugResources-28 /Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.guri.loginkt_new.app-packageDebugResources-29 /Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.guri.loginkt_new.app-merged_res-30 /Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/build/intermediates/merged_res/debug
-com.guri.loginkt_new.app-debug-31 /Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/debug/res
-com.guri.loginkt_new.app-main-32 /Users/2sumin/Desktop/복원용_코틀린/Loginkt_new/app/src/main/res
+com.guri.loginkt_new.app-resValues-26 /Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/build/generated/res/resValues/debug
+com.guri.loginkt_new.app-rs-27 /Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/build/generated/res/rs/debug
+com.guri.loginkt_new.app-packageDebugResources-28 /Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.guri.loginkt_new.app-packageDebugResources-29 /Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.guri.loginkt_new.app-merged_res-30 /Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/build/intermediates/merged_res/debug
+com.guri.loginkt_new.app-debug-31 /Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/debug/res
+com.guri.loginkt_new.app-main-32 /Users/2sumin/Desktop/코틀린_팀프로젝트/복원용_코틀린/Loginkt_new/app/src/main/res
