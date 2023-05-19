@@ -55,9 +55,9 @@ class LoginActivity : AppCompatActivity() {
         }
 
 
-        // 로그인 버튼 누르면 홈화면으로 이동
+        // 로그인 버튼 누르면 addprojectFragment 이동
         binding.btnLogin.setOnClickListener {
-            // 메인 화면 home에 넣기
+//             메인 화면 home에 넣기
             val intent = Intent(this, HomeActivity::class.java)
             startActivity(intent)
         }

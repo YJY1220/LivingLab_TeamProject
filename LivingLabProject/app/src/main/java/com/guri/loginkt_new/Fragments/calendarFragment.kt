@@ -7,15 +7,9 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ListAdapter
 import androidx.fragment.app.Fragment
-import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
 import com.guri.loginkt_new.R
 import com.guri.loginkt_new.databinding.FragmentCalendarBinding
-import com.guri.loginkt_new.databinding.FragmentContributionBinding
-import com.guri.loginkt_new.recyclerView.ListGrid
-import com.guri.loginkt_new.recyclerView.ListGridAdapter
 import com.guri.loginkt_new.recyclerView.MyViewPager
 import com.guri.loginkt_new.recyclerView.MyViewPagerAdapter
 

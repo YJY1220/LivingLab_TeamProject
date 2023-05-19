@@ -28,10 +28,10 @@ class recommendationFragment : Fragment() {
         _binding = FragmentRecommendationBinding.inflate(inflater, container, false)
         val view = binding.root
 
-//        // 저장하기 버튼 누르면 넘어가게
-//        binding.btnMe.setOnClickListener {
-//            requireActivity().supportFragmentManager.beginTransaction().replace(R.id.fragmentCotainer, recommendationFragment()).commit()
-//        }
+        // 저장하기 버튼 누르면 넘어가게
+        binding.btnToRec.setOnClickListener {
+            requireActivity().supportFragmentManager.beginTransaction().replace(R.id.fragmentCotainer, selectionwithpopupFragment()).commit()
+        }
 
         return view
     }
