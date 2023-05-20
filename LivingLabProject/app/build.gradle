@@ -7,6 +7,10 @@ plugins {
 
 android {
 
+    buildToolsVersion '23.0.1'
+    namespace 'com.example.livinglab'
+    compileSdk 33
+
     // 벡터 이미지 사용 가능하게
     defaultConfig {
         vectorDrawables.useSupportLibrary = true
@@ -21,7 +25,8 @@ android {
 
     defaultConfig {
         applicationId "com.guri.loginkt_new"
-        minSdk 24
+        // 24 -> 28 (jiye)
+        minSdk 28
         targetSdk 33
         versionCode 1
         versionName "1.0"
@@ -42,6 +47,15 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    splits{
+        abi{
+            enable true
+            reset()
+            include 'x86', 'armeabi-v7a', 'x86_64'
+            universalApk true
+        }
+    }
 }
 
 dependencies {
@@ -55,11 +69,17 @@ dependencies {
 
     // 내비게이션 바
     implementation 'com.google.android.material:material:1.3.0'
+
+    // 지예 지도
+    implementation files('libs/libDaumMapAndroid.jar')
+    implementation fileTree(dir: 'libs', include: ['*.aar', '*.jar'], exclude: [])
+
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.9.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'androidx.mediarouter:mediarouter:1.4.0'
+    implementation files('src\\main\\jniLibs')
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
