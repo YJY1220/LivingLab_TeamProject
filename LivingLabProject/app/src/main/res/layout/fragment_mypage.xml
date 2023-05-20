@@ -7,11 +7,12 @@
     tools:context=".Fragments.mypageFragment">
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_marginLeft="27dp"
-        android:layout_marginRight="27dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="40dp"
+        android:layout_marginRight="0dp"
+        android:gravity="center_vertical"
         android:orientation="vertical">
 
 
@@ -21,42 +22,43 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="169dp"
             android:layout_marginBottom="11dp"
-            android:textSize="16sp"
-            android:text="Username" />
+            android:text="Username"
+            android:textSize="16sp" />
 
         <EditText
             android:id="@+id/et_Username"
             android:layout_width="321dp"
             android:layout_height="45dp"
-            android:paddingLeft="10dp"
+            android:layout_marginBottom="17dp"
             android:background="@drawable/tv_border"
             android:ems="10"
-            android:layout_marginBottom="17dp"
-            android:textColor="#6A6868"
-            android:textSize="16sp"
             android:inputType="textPersonName"
-            android:text="aaA" />
+            android:paddingLeft="10dp"
+            android:text="aaA"
+            android:textColor="#6A6868"
+            android:textSize="16sp" />
+
         <TextView
             android:id="@+id/tv_University"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp"
             android:layout_marginBottom="11dp"
-            android:textSize="16sp"
-            android:text="University" />
+            android:text="University"
+            android:textSize="16sp" />
 
         <EditText
             android:id="@+id/et_University"
             android:layout_width="321dp"
             android:layout_height="45dp"
-            android:paddingLeft="10dp"
+            android:layout_marginBottom="17dp"
             android:background="@drawable/tv_border"
             android:ems="10"
-            android:layout_marginBottom="17dp"
-            android:textColor="#6A6868"
-            android:textSize="16sp"
             android:inputType="textPersonName"
-            android:text="경북대학교" />
+            android:paddingLeft="10dp"
+            android:text="경북대학교"
+            android:textColor="#6A6868"
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/tv_Grade"
@@ -64,42 +66,43 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp"
             android:layout_marginBottom="11dp"
-            android:textSize="16sp"
-            android:text="Grade" />
+            android:text="Grade"
+            android:textSize="16sp" />
 
         <EditText
             android:id="@+id/et_Grade"
             android:layout_width="321dp"
             android:layout_height="45dp"
-            android:paddingLeft="10dp"
+            android:layout_marginBottom="17dp"
             android:background="@drawable/tv_border"
             android:ems="10"
-            android:layout_marginBottom="17dp"
-            android:textColor="#6A6868"
-            android:textSize="16sp"
             android:inputType="textPersonName"
-            android:text="3학년" />
+            android:paddingLeft="10dp"
+            android:text="3학년"
+            android:textColor="#6A6868"
+            android:textSize="16sp" />
+
         <TextView
             android:id="@+id/tv_Major"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp"
             android:layout_marginBottom="11dp"
-            android:textSize="16sp"
-            android:text="Major" />
+            android:text="Major"
+            android:textSize="16sp" />
 
         <EditText
             android:id="@+id/et_Major"
             android:layout_width="321dp"
             android:layout_height="45dp"
-            android:paddingLeft="10dp"
+            android:layout_marginBottom="17dp"
             android:background="@drawable/tv_border"
             android:ems="10"
-            android:layout_marginBottom="17dp"
-            android:textColor="#6A6868"
-            android:textSize="16sp"
             android:inputType="textPersonName"
-            android:text="컴퓨터공학과" />
+            android:paddingLeft="10dp"
+            android:text="컴퓨터공학과"
+            android:textColor="#6A6868"
+            android:textSize="16sp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_login"

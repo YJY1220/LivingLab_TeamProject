@@ -33,18 +33,6 @@
 
     </androidx.appcompat.widget.Toolbar>
 
-    <androidx.constraintlayout.utils.widget.ImageFilterView
-        android:id="@+id/imageFilterView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="464dp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_register"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
-
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="321dp"
@@ -195,21 +183,20 @@
         android:id="@+id/btn_register"
         android:layout_width="329dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/button_circular"
-
-        android:textColor="@color/white"
-
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+
         android:layout_marginEnd="8dp"
+
         android:layout_marginBottom="73dp"
+        android:background="@drawable/button_circular"
         android:text="회원가입"
+        android:textColor="@color/white"
         app:iconTint="#3B8ED1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName4"
         app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName4"
-        app:layout_constraintTop_toBottomOf="@+id/imageFilterView"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"
         app:rippleColor="#1E72B5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
