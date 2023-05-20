@@ -43,16 +43,16 @@
         android:id="@+id/viewPager_aespa"
         android:layout_width="347dp"
         android:layout_height="160dp"
-        android:layout_marginTop="65dp"
-        android:paddingTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/vp_background"
         android:paddingLeft="26dp"
+        android:paddingTop="30dp"
         android:paddingRight="26dp"
         android:paddingBottom="27dp"
-        android:background="@drawable/vp_background"
-        android:layout_gravity="center_horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -64,7 +64,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="18dp"
-            android:layout_marginTop="45dp"
+            android:layout_marginTop="20dp"
             android:fontFamily="sans-serif-medium"
             android:text="나의 일정 등록"
             android:textColor="@color/blue"
@@ -115,11 +115,13 @@
         android:id="@+id/btn_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
         android:layout_marginTop="20dp"
+        android:layout_marginRight="0dp"
         android:gravity="center"
         android:orientation="vertical"
-        android:paddingLeft="38dp"
-        android:paddingRight="38dp">
+        android:paddingLeft="20dp"
+        android:paddingRight="0dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -200,8 +202,8 @@
                 android:layout_marginBottom="9dp"
                 android:background="@drawable/selector_btn_color"
                 android:text="14:00"
-                android:textColor="@drawable/selector_txt_color"
                 android:textAlignment="center"
+                android:textColor="@drawable/selector_txt_color"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp" />
 
@@ -213,8 +215,8 @@
                 android:layout_marginBottom="9dp"
                 android:background="@drawable/selector_btn_color"
                 android:text="15:00"
-                android:textColor="@drawable/selector_txt_color"
                 android:textAlignment="center"
+                android:textColor="@drawable/selector_txt_color"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp" />
 
@@ -226,8 +228,8 @@
                 android:layout_marginBottom="9dp"
                 android:background="@drawable/selector_btn_color"
                 android:text="16:00"
-                android:textColor="@drawable/selector_txt_color"
                 android:textAlignment="center"
+                android:textColor="@drawable/selector_txt_color"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp" />
 
@@ -238,8 +240,8 @@
                 android:layout_marginBottom="9dp"
                 android:background="@drawable/selector_btn_color"
                 android:text="17:00"
-                android:textColor="@drawable/selector_txt_color"
                 android:textAlignment="center"
+                android:textColor="@drawable/selector_txt_color"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp" />
         </LinearLayout>

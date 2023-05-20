@@ -144,19 +144,24 @@
         android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
         android:background="@drawable/button_circular"
         android:fontFamily="sans-serif-condensed-medium"
-        android:layout_marginTop="30dp"
-        android:text="추천 일정 확인하기"
+        android:text="일정 등록하기"
         android:textColor="@color/white"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_marginTop="30dp" />
 
-
-
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/date_selected_popup" />
 
 
 </LinearLayout>

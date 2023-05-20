@@ -16,9 +16,10 @@ class HomeActivity : AppCompatActivity() {
 
     val homeF = homeFragment()
     val mapF = mapFragment()
-    val calendarF = bfselectionFragment()
+    val calendarF = addCalendarFragment()
     val contributionF = contributionFragment()
     val mypageF = mypageFragment()
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -64,7 +65,6 @@ class HomeActivity : AppCompatActivity() {
         }
 
 
-
         // 알림 화면에서 홈화면으로 넘어온 경우
         if (intent.hasExtra("navi"))
         {
@@ -80,6 +80,7 @@ class HomeActivity : AppCompatActivity() {
             }
             if (opt_navi == "map") {
                 replaceFragment(mapF)
+
             }
 
         }
